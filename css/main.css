@@ -1,0 +1,27 @@
+:root {
+    --FirstColor: #e17055;
+    --secondColor: #81ecec;
+    --thirdColor:#6c5ce7;
+}
+.buttons{
+    margin: 15% auto;
+}
+button{
+    color: #d63031;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    padding: 2%;
+    margin: 1%;
+    width: 30%;
+    height: 15%;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    font-weight: 900;
+    font-size: 30px;
+
+}
